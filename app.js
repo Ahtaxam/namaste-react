@@ -63,3 +63,4 @@ root.render(parent);
 
 
 
+// React is library bcoz it can work independentally on a small portion of your website
