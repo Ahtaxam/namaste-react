@@ -1,6 +1,8 @@
 // ** React.createElement **
 // const element = createElement(type, props, ...children)
 // it return javaScript Object or React Element
+import React from "react";
+import ReactDOM from "react-dom/client"
 const heading = React.createElement(
   "h1",
   { id: "heading" },
@@ -45,7 +47,7 @@ root.render(heading);
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "i'm h1"),
+    React.createElement("h1", {}, "i'm h1 of child1"),
     React.createElement("h1", {}, "i'm h2"),
   ]),
   React.createElement("div", { id: "child2" }, [
